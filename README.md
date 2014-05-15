@@ -9,8 +9,9 @@ CustomView
 ExpandCalendar
 ------------
 因为项目需要，故将[android-times-square](https://github.com/square/android-times-square)大神的开源日历控件增加了手势展开和收缩的功能。
-![正常效果](./zhankai.png "图片")
-![收缩后效果](./shousuo.png "图片")
+
+![正常效果](https://github.com/sunxd/CustomView/blob/master/ExpandCalendar/zhankai.png "图片")
+![收缩后效果](https://github.com/sunxd/CustomView/blob/master/ExpandCalendar/shousuo.jpg "图片")
 
 
 ### 使用方法
@@ -26,7 +27,7 @@ ExpandCalendar
         }
     });
 
-    其它常规用法见[android-times-square](https://github.com/square/android-times-square)，说明的已经很清楚了。
+    其它常规用法见[android-times-square](https://github.com/square/android-times-square) ，说明的已经很清楚了。
 
 
 
