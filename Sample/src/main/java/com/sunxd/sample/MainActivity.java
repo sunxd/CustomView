@@ -31,6 +31,7 @@ public class MainActivity extends ActionBarActivity {
                         startActivity(ExpandCalendarActivity.class);
                         break;
                     case 1:
+                        startActivity(SlideLaoutActivity.class);
                         break;
                 }
             }

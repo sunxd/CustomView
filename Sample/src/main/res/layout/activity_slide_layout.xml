@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sunxd.sample.MainActivity">
+
+    <ImageView android:id="@+id/imv_home_ad"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ad"/>
+
+    <ImageView android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/center_imv"
+        android:layout_below="@id/imv_home_ad">
+
+
+    </ImageView>
+    <View android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/ll_container"/>
+
+    <View android:id="@+id/cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ll_container"
+        android:layout_alignBottom="@id/ll_container"
+        android:background="#cc272727"
+        />
+
+    <!-- 我的 -->
+    <com.sunxd.widget.SlideLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/space"
+        android:orientation="vertical"
+        android:background="#f1f1f1">
+
+        <TextView android:id="@+id/txv_username"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="80dp"
+            android:textSize="16sp"
+            android:text="张三"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_height="68dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/container_bg"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:text="这里是文字"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_2"
+            android:layout_height="68dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/container_bg"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:text="这里是文字"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_3"
+            android:layout_height="68dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/container_bg"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:text="这里是文字"/>
+
+
+        </RelativeLayout>
+
+
+
+    </com.sunxd.widget.SlideLayout>
+    <!-- 头像 -->
+    <ImageView
+        android:id="@+id/rimv_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_alignTop="@id/home_container"
+        android:layout_marginTop="-24dp"
+        android:contentDescription="@string/app_name"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_launcher"/>
+
+    <ImageView android:id="@+id/imv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imv_travle_map_up"
+        android:layout_alignTop="@id/home_container"
+        android:layout_marginTop="-16dp"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:contentDescription="@string/app_name"/>
+
+</RelativeLayout>

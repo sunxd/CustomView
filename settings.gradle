@@ -1,1 +1,1 @@
-include ':Sample', ':ExpandCalendar'
+include ':Sample', ':ExpandCalendar', ':SlideLayout'
