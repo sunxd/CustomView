@@ -11,7 +11,7 @@ ExpandCalendar
 ------------
 因为项目需要，故将[android-times-square](https://github.com/square/android-times-square)大神的开源日历控件增加了手势展开和收缩的功能。
 
-![正常效果](https://raw.githubusercontent.com/sunxd/CustomView/master/ExpandCalendar/zhankai.jpg "正常效果")
+![正常效果](https://raw.githubusercontent.com/sunxd/CustomView/master/ExpandCalendar/zhankai.jpg "正常效果")，
 ![收缩后效果](https://raw.githubusercontent.com/sunxd/CustomView/master/ExpandCalendar/shousuo.jpg "收缩后效果")
 
 ### 使用方法
@@ -36,7 +36,7 @@ SlideLayout
 类似抽屉控件，位置随便放，给他一个distance,它就可以展开到distance的距离，比抽屉更灵活，不影响事件响应。
 
 
-![正常效果](https://raw.githubusercontent.com/sunxd/CustomView/master/SlideLayout/slide.jpg "正常效果")
+![正常效果](https://raw.githubusercontent.com/sunxd/CustomView/master/SlideLayout/slide.jpg "正常效果")，
 ![收缩后效果](https://raw.githubusercontent.com/sunxd/CustomView/master/SlideLayout/slide_open.jpg "展开后效果")
 
 
